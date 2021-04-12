@@ -1,0 +1,69 @@
+{
+    "editor.minimap.showSlider": "always",
+    "editor.tokenColorCustomizations": {
+        "[GitHub Sharp]": {
+            "comments": "#ff6961"
+        },
+        "[Default Light+]": {
+            "comments": "#ff6961"
+        },
+        "[Default Dark+]": {
+            "comments": "#ff6961"
+        }
+    },
+    "workbench.colorCustomizations": {
+        "[Default Dark+]": {
+            "statusBar.background": "#1A1A1A",
+            "statusBar.noFolderBackground": "#212121",
+            "statusBar.debuggingBackground": "#263238"
+        },
+        "[Default Light+]": {
+            "statusBar.background": "#2c2c2c"
+        }
+    },
+    "diffEditor.renderSideBySide": true,
+    "editor.smoothScrolling": false,
+    "editor.cursorStyle": "block-outline",
+    "editor.cursorBlinking":"solid",
+    "files.trimFinalNewlines": true,
+    "editor.acceptSuggestionOnEnter": "smart",
+    "editor.cursorSmoothCaretAnimation": true,
+    "editor.renderWhitespace": "all",
+    "editor.letterSpacing": 0,
+    "editor.lineHeight": 0,
+    "editor.suggestSelection": "first",
+    "editor.rulers": [80, 120, 180],
+    "bracket-pair-colorizer-2.colors": [
+        "Blue",
+        "Red",
+        "Green"
+    ],
+    "bracket-pair-colorizer-2.showVerticalScopeLine": true,
+    "python.autoComplete.addBrackets": true,
+    "python.autoComplete.extraPaths": [],
+    "telemetry.enableTelemetry": false,
+    "telemetry.enableCrashReporter": false,
+    "git.confirmSync": false,
+    // "python.dataScience.sendSelectionToInteractiveWindow": true,
+    "git.enableSmartCommit": true,
+    "autoDocstring.docstringFormat": "numpy",
+    "autoDocstring.quoteStyle": "'''",
+    "git.autofetch": true,
+    "terminal.integrated.scrollback": 3000,
+    "workbench.editorAssociations": [
+        {
+            "viewType": "default",
+            "filenamePattern": "*.wav"
+        },
+        {
+            "viewType": "jupyter.notebook.ipynb",
+            "filenamePattern": "*.ipynb"
+        }
+    ],
+    "python.languageServer": "Pylance",
+    "cmake.configureOnOpen": true,
+    "workbench.editor.wrapTabs": true,
+    "workbench.colorTheme": "Default Light+",
+    "python.analysis.extraPaths": [],
+    "python.analysis.completeFunctionParens": true
+}
