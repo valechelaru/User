@@ -18,7 +18,15 @@
             "statusBar.debuggingBackground": "#263238"
         },
         "[Default Light+]": {
-            "statusBar.background": "#2c2c2c"
+            "statusBar.background": "#2c2c2c",
+            "editorBracketHighlight.foreground1": "#0044ff",
+            "editorBracketHighlight.foreground2": "#00ff88",
+            "editorBracketHighlight.foreground3": "#ff0037",
+            "editorBracketHighlight.foreground4": "#ffbb00",
+            "editorBracketHighlight.foreground5": "#4c00ff",
+            "editorBracketHighlight.foreground6": "#91ff00",
+            "editorBracketMatch.border": "#0051ff",
+            "editorOverviewRuler.bracketMatchForeground": "#ff00ff"
         }
     },
     "diffEditor.renderSideBySide": true,
@@ -33,16 +41,11 @@
     "editor.lineHeight": 0,
     "editor.suggestSelection": "first",
     "editor.rulers": [80, 120, 180],
-    "bracket-pair-colorizer-2.colors": [
-        "Blue",
-        "Red",
-        "Green"
-    ],
-    "bracket-pair-colorizer-2.showVerticalScopeLine": true,
     "python.autoComplete.addBrackets": true,
     "python.autoComplete.extraPaths": [],
     "telemetry.enableTelemetry": false,
     "telemetry.enableCrashReporter": false,
+    "telemetry.telemetryLevel": "off",
     "git.confirmSync": false,
     // "python.dataScience.sendSelectionToInteractiveWindow": true,
     "git.enableSmartCommit": true,
@@ -50,20 +53,17 @@
     "autoDocstring.quoteStyle": "'''",
     "git.autofetch": true,
     "terminal.integrated.scrollback": 3000,
-    "workbench.editorAssociations": [
-        {
-            "viewType": "default",
-            "filenamePattern": "*.wav"
-        },
-        {
-            "viewType": "jupyter.notebook.ipynb",
-            "filenamePattern": "*.ipynb"
-        }
-    ],
+    "workbench.editorAssociations": {
+        "*.wav": "default",
+        "*.ipynb": "jupyter.notebook.ipynb"
+    },
     "python.languageServer": "Pylance",
     "cmake.configureOnOpen": true,
     "workbench.editor.wrapTabs": true,
     "workbench.colorTheme": "Default Light+",
     "python.analysis.extraPaths": [],
-    "python.analysis.completeFunctionParens": true
+    "python.analysis.completeFunctionParens": true,
+    "editor.bracketPairColorization.enabled": true,
+    "editor.guides.bracketPairs": true,
+    "editor.suggest.preview": true
 }
