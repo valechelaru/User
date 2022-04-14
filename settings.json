@@ -64,5 +64,7 @@
     "python.analysis.completeFunctionParens": true,
     "editor.bracketPairColorization.enabled": true,
     "editor.guides.bracketPairs": true,
-    "editor.suggest.preview": true
+    "editor.suggest.preview": true,
+    "css.format.enable": true,
+    "css.format.newlineBetweenRules": true
 }
