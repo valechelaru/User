@@ -66,5 +66,8 @@
     "editor.guides.bracketPairs": true,
     "editor.suggest.preview": true,
     "css.format.enable": true,
-    "css.format.newlineBetweenRules": true
+    "css.format.newlineBetweenRules": true,
+    "git.mergeEditor": true,
+    "window.titleBarStyle": "custom",
+    "window.commandCenter": true
 }
