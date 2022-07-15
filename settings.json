@@ -15,25 +15,26 @@
     "workbench.preferredLightColorTheme": "Default Light+",
     "workbench.colorCustomizations": {
         "[Default Dark+]": {
-            "statusBar.background": "#1A1A1A",
+            "statusBar.background": "#3c3c3c",
             "statusBar.noFolderBackground": "#3c3c3c",
             "statusBar.debuggingBackground": "#263238",
             "window.activeBorder": "#eeeeee",
             "window.inactiveBorder": "#222222",
             "activityBar.background": "#3c3c3c",
-            "activityBar.foreground": "#757575",
-            "activityBar.inactiveForeground": "#c0c0c0"
+            "activityBar.foreground": "#cecece",
+            "activityBar.inactiveForeground": "#949494">
         },
         "[Default Light+]": {
-            "statusBar.background": "#2c2c2c",
+            "statusBar.background": "#dddddd",
+            "statusBar.foreground": "#0f0f0f",
             "statusBar.noFolderBackground": "#dddddd",
             "statusBar.noFolderForeground": "#0f0f0f",
             "statusBar.debuggingBackground": "#263238",
             "window.activeBorder": "#222222",
             "window.inactiveBorder": "#eeeeee",
             "activityBar.background": "#dddddd",
-            "activityBar.foreground": "#757575",
-            "activityBar.inactiveForeground": "#0f0f0f",
+            "activityBar.foreground": "#181818",
+            "activityBar.inactiveForeground": "#4d4d4d",
             "editorBracketHighlight.foreground1": "#0044ff",
             "editorBracketHighlight.foreground2": "#00ff88",
             "editorBracketHighlight.foreground3": "#ff0037",
@@ -84,5 +85,8 @@
     "css.format.newlineBetweenRules": true,
     "git.mergeEditor": true,
     "window.titleBarStyle": "custom",
-    "window.commandCenter": true
+    "window.commandCenter": true,
+    "redhat.telemetry.enabled": false,
+    "clangd.path": "/home/vale/.config/Code/User/globalStorage/llvm-vs-code-extensions.vscode-clangd/install/14.0.3/clangd_14.0.3/bin/clangd",
+    "C_Cpp.intelliSenseEngine": "Disabled"
 }
