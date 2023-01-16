@@ -22,7 +22,7 @@
             "window.inactiveBorder": "#222222",
             "activityBar.background": "#3c3c3c",
             "activityBar.foreground": "#cecece",
-            "activityBar.inactiveForeground": "#949494">
+            "activityBar.inactiveForeground": "#949494"
         },
         "[Default Light+]": {
             "statusBar.background": "#dddddd",
@@ -48,7 +48,7 @@
     "diffEditor.renderSideBySide": true,
     "editor.smoothScrolling": false,
     "editor.cursorStyle": "block-outline",
-    "editor.cursorBlinking":"solid",
+    "editor.cursorBlinking": "solid",
     "files.trimFinalNewlines": true,
     "editor.acceptSuggestionOnEnter": "smart",
     "editor.cursorSmoothCaretAnimation": true,
@@ -56,7 +56,9 @@
     "editor.letterSpacing": 0,
     "editor.lineHeight": 0,
     "editor.suggestSelection": "first",
-    "editor.rulers": [120],
+    "editor.rulers": [
+        120
+    ],
     "python.autoComplete.addBrackets": true,
     "python.autoComplete.extraPaths": [],
     "telemetry.enableTelemetry": false,
@@ -88,7 +90,10 @@
     "window.commandCenter": true,
     "redhat.telemetry.enabled": false,
     "clangd.path": "/home/vale/.config/Code/User/globalStorage/llvm-vs-code-extensions.vscode-clangd/install/14.0.3/clangd_14.0.3/bin/clangd",
-    "C_Cpp.intelliSenseEngine": "Disabled",
-    "editor.stickyScroll.enabled": true
+    "C_Cpp.intelliSenseEngine": "disabled",
+    "editor.stickyScroll.enabled": true,
+    "editor.formatOnSave": true,
+    "editor.inlineSuggest.enabled": true,
+    "output.smartScroll.enabled": false
     // Experimental features
 }
