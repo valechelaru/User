@@ -51,7 +51,7 @@
     "editor.cursorBlinking": "solid",
     "files.trimFinalNewlines": true,
     "editor.acceptSuggestionOnEnter": "smart",
-    "editor.cursorSmoothCaretAnimation": true,
+    "editor.cursorSmoothCaretAnimation": "on",
     "editor.renderWhitespace": "all",
     "editor.letterSpacing": 0,
     "editor.lineHeight": 0,
@@ -94,6 +94,12 @@
     "editor.stickyScroll.enabled": true,
     "editor.formatOnSave": true,
     "editor.inlineSuggest.enabled": true,
-    "output.smartScroll.enabled": false
+    "output.smartScroll.enabled": false,
+    "github.copilot.enable": {
+        "*": true,
+        "yaml": false,
+        "plaintext": false,
+        "markdown": true
+    }
     // Experimental features
 }
