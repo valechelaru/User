@@ -97,9 +97,13 @@
     "output.smartScroll.enabled": false,
     "github.copilot.enable": {
         "*": true,
-        "yaml": false,
         "plaintext": false,
-        "markdown": true
-    }
+        "markdown": true,
+        "scminput": false,
+        "yaml": false
+    },
+    "terminal.integrated.inheritEnv": false,
+    "jupyter.askForKernelRestart": false,
+    "editor.occurrencesHighlight": "multiFile"
     // Experimental features
 }
